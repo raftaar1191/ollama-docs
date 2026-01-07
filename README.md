@@ -40,5 +40,5 @@ Trained models generate output based on input. The process in which we get the o
 ## Run Model in Ollama
  - Ollama pull model-id -> to download the model into the local machines
  - Ollama run model-id -> to download the model into the local machines and also run it
- - By using the modelfile https://docs.ollama.com/modelfile Example: ollama create m1 -f /FILEPATH/modeltextfile.txt
+ - By using the modelfile https://docs.ollama.com/modelfile Example: ollama create model-name -f /FILEPATH/modeltextfile.txt
  - By using the GGUI format model file
