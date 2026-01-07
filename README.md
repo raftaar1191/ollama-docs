@@ -42,3 +42,16 @@ Trained models generate output based on input. The process in which we get the o
  - Ollama run model-id -> to download the model into the local machines and also run it
  - By using the modelfile https://docs.ollama.com/modelfile Example: ollama create model-name -f /FILEPATH/modeltextfile.txt and then run ollama run model-name
  - By using the GGUI format model file
+
+
+ ## Access models
+ - Can access via terminal by using the Ollama run model-id command
+ - Can also use the default Ollama GUI
+ - Can also use Open WebUI https://openwebui.com/ollama/
+
+
+## Setting up Open WebUI for Ollama
+ - Install docker desktop
+ - Star t docker desktop
+ - To download the image run command ```docker pull ghcr.io/open-webui/open-webui:main```
+ - TO start run ```docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main```
